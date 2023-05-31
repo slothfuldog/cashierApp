@@ -1,0 +1,27 @@
+.right-side-bar{
+    position: fixed;
+    right: 0;
+    overflow-y: hidden;
+}
+.btn-cancel{
+    border: 1.7px orange solid;
+    background-color: white;
+    color: orange;
+    font-weight: 600;
+    width: 100px;
+    height: 41px;
+    border-radius: 7%;
+    transition: all 0.2s ease-in-out
+}
+.btn-cancel:hover{
+    border: 1.7 rgb(231, 150, 0);
+    background-color: rgb(224, 222, 222);
+}
+.btn-cancel:active{
+    border: 1.7 rgb(231, 150, 0);
+    background-color: rgb(206, 203, 203);
+}
+.btns-group{
+    position: absolute;
+    bottom: 100px;
+}
